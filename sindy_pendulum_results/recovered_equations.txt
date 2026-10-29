@@ -1,0 +1,106 @@
+GROUND TRUTH
+ddq = -0.100 dq - 9.810 sin(q)
+
+======================================================================
+STLSQ
+======================================================================
+
+threshold = 0.01
+ddq = 13.440 + 132.446 q - 0.083 dq - 6.414 q^2 - 0.025 q*dq - 141.673 sin(q) - 13.420 cos(q) - 21.362 q^3
+active terms = 8
+derivative RMSE = 0.352662
+rollout RMSE = 0.283416
+
+threshold = 0.05
+ddq = 13.336 + 131.534 q - 0.083 dq - 6.362 q^2 - 140.759 sin(q) - 13.315 cos(q) - 21.216 q^3
+active terms = 7
+derivative RMSE = 0.351929
+rollout RMSE = 0.283988
+
+threshold = 0.1
+ddq = 12.465 + 127.033 q - 5.956 q^2 - 136.233 sin(q) - 12.430 cos(q) - 20.511 q^3
+active terms = 6
+derivative RMSE = 0.392427
+rollout RMSE = 0.457668
+
+threshold = 0.2
+ddq = 12.465 + 127.033 q - 5.956 q^2 - 136.233 sin(q) - 12.430 cos(q) - 20.511 q^3
+active terms = 6
+derivative RMSE = 0.392427
+rollout RMSE = 0.457668
+
+threshold = 0.5
+ddq = 12.465 + 127.033 q - 5.956 q^2 - 136.233 sin(q) - 12.430 cos(q) - 20.511 q^3
+active terms = 6
+derivative RMSE = 0.392427
+rollout RMSE = 0.457668
+
+threshold = 1
+ddq = 12.465 + 127.033 q - 5.956 q^2 - 136.233 sin(q) - 12.430 cos(q) - 20.511 q^3
+active terms = 6
+derivative RMSE = 0.392427
+rollout RMSE = 0.457668
+
+threshold = 2
+ddq = 12.465 + 127.033 q - 5.956 q^2 - 136.233 sin(q) - 12.430 cos(q) - 20.511 q^3
+active terms = 6
+derivative RMSE = 0.392427
+rollout RMSE = 0.457668
+
+======================================================================
+LASSO
+======================================================================
+
+alpha = 1e-06
+ddq = 12.551 + 1.644 q - 0.079 dq - 6.037 q^2 - 0.024 q*dq - 0.005 dq^2 - 10.488 sin(q) - 12.492 cos(q) - 0.939 q^3 - 0.001 dq^3
+active terms = 10
+derivative RMSE = 0.344672
+rollout RMSE = 0.279470
+
+alpha = 3e-06
+ddq = 6.784 - 0.077 dq - 3.386 q^2 - 0.024 q*dq - 0.009 dq^2 - 8.832 sin(q) - 6.669 cos(q) - 0.695 q^3 - 0.001 dq^3
+active terms = 9
+derivative RMSE = 0.342007
+rollout RMSE = 0.278054
+
+alpha = 1e-05
+ddq = 0.176 - 0.075 dq - 0.346 q^2 - 0.024 q*dq - 0.014 dq^2 - 8.823 sin(q) - 0.710 q^3 - 0.001 dq^3
+active terms = 8
+derivative RMSE = 0.340943
+rollout RMSE = 0.276496
+
+alpha = 3e-05
+ddq = -0.075 dq - 0.257 q^2 - 0.023 q*dq - 0.012 dq^2 - 8.822 sin(q) + 0.168 cos(q) - 0.710 q^3 - 0.001 dq^3
+active terms = 8
+derivative RMSE = 0.340731
+rollout RMSE = 0.277123
+
+alpha = 1e-04
+ddq = -0.075 dq - 0.232 q^2 - 0.019 q*dq - 0.008 dq^2 - 8.822 sin(q) + 0.138 cos(q) - 0.707 q^3 - 0.001 dq^3
+active terms = 8
+derivative RMSE = 0.340508
+rollout RMSE = 0.279752
+
+alpha = 3e-04
+ddq = -4.499 q - 0.074 dq - 0.179 q^2 - 0.011 q*dq - 4.305 sin(q) + 0.078 cos(q) - 0.001 dq^3
+active terms = 7
+derivative RMSE = 0.341635
+rollout RMSE = 0.288235
+
+alpha = 1e-03
+ddq = -4.507 q - 0.064 dq - 0.078 q^2 - 4.265 sin(q) + 0.022 cos(q) - 0.001 dq^3
+active terms = 6
+derivative RMSE = 0.352202
+rollout RMSE = 0.323422
+
+alpha = 3e-03
+ddq = -4.511 q - 0.039 dq - 4.168 sin(q)
+active terms = 3
+derivative RMSE = 0.403602
+rollout RMSE = 0.441248
+
+alpha = 1e-02
+ddq = -4.353 q - 4.028 sin(q)
+active terms = 2
+derivative RMSE = 0.576900
+rollout RMSE = 0.728374

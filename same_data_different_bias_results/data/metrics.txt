@@ -1,0 +1,10 @@
+Same Data, Different Inductive Bias
+==================================================
+
+Baseline q RMSE: 0.035466 rad
+LNN q RMSE: 0.014866 rad
+
+Baseline max energy drift: 0.077416
+LNN max energy drift: 0.003802
+
+Learned LNN mass: 0.802912

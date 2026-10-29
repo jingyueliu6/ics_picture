@@ -1,0 +1,91 @@
+TRUE EQUATION
+ddq = -0.1000 dq - 9.8100 sin(q)
+
+======================================================================
+STLSQ
+======================================================================
+
+Threshold = 0.01
+ddq = - 0.1060 1 - 55.4001 q - 0.0986 dq + 0.0334 q^2 - 0.0048 q*dq + 0.0012 dq^2 + 46.5640 sin(q) + 0.1081 cos(q) + 8.2946 q^3 + 0.0014 dq^3
+Active terms = 10
+Derivative RMSE = 0.071726
+
+Threshold = 0.05
+ddq = - 0.1060 1 - 55.4001 q - 0.0986 dq + 0.0334 q^2 - 0.0048 q*dq + 0.0012 dq^2 + 46.5640 sin(q) + 0.1081 cos(q) + 8.2946 q^3 + 0.0014 dq^3
+Active terms = 10
+Derivative RMSE = 0.071726
+
+Threshold = 0.1
+ddq = - 0.0683 1 - 55.5464 q - 0.0984 dq + 0.0164 q^2 + 0.0013 dq^2 + 46.7115 sin(q) + 0.0695 cos(q) + 8.3167 q^3 + 0.0013 dq^3
+Active terms = 9
+Derivative RMSE = 0.071834
+
+Threshold = 0.2
+ddq = - 0.3000 1 - 55.7110 q - 0.0979 dq + 0.1192 q^2 + 46.8766 sin(q) + 0.3098 cos(q) + 8.3423 q^3 + 0.0012 dq^3
+Active terms = 8
+Derivative RMSE = 0.071877
+
+Threshold = 0.5
+ddq = - 0.0436 1 - 54.7542 q - 0.0909 dq + 45.9171 sin(q) + 0.0520 cos(q) + 8.1920 q^3
+Active terms = 6
+Derivative RMSE = 0.072124
+
+Threshold = 1.0
+ddq = - 0.0436 1 - 54.7542 q - 0.0909 dq + 45.9171 sin(q) + 0.0520 cos(q) + 8.1920 q^3
+Active terms = 6
+Derivative RMSE = 0.072124
+
+Threshold = 2.0
+ddq = - 57.3195 q - 0.0910 dq + 48.4862 sin(q) + 8.6002 q^3
+Active terms = 4
+Derivative RMSE = 0.072460
+
+
+======================================================================
+LASSO
+======================================================================
+
+alpha = 1.000e-06
+ddq = 0.0070 1 - 8.9526 q - 0.0976 dq - 0.0299 q^2 - 0.0053 q*dq + 0.0007 dq^2 + 1.0048 q^3 + 0.0012 dq^3
+Active terms = 8
+Derivative RMSE = 0.074175
+
+alpha = 3.000e-06
+ddq = - 8.6113 q - 0.0973 dq - 0.0264 q^2 - 0.0052 q*dq + 0.0007 dq^2 - 0.3414 sin(q) + 0.0069 cos(q) + 0.9502 q^3 + 0.0012 dq^3
+Active terms = 9
+Derivative RMSE = 0.074214
+
+alpha = 1.000e-05
+ddq = - 2.7571 q - 0.0962 dq - 0.0269 q^2 - 0.0050 q*dq + 0.0006 dq^2 - 6.2078 sin(q) + 0.0070 cos(q) + 0.0282 q^3 + 0.0010 dq^3
+Active terms = 9
+Derivative RMSE = 0.074880
+
+alpha = 3.000e-05
+ddq = - 2.5452 q - 0.0933 dq - 0.0229 q^2 - 0.0043 q*dq + 0.0007 dq^2 - 6.4226 sin(q) + 0.0044 cos(q) + 0.0005 dq^3
+Active terms = 8
+Derivative RMSE = 0.074995
+
+alpha = 1.000e-04
+ddq = - 2.5269 q - 0.0895 dq - 0.0134 q^2 - 0.0020 q*dq + 0.0007 dq^2 - 6.4392 sin(q)
+Active terms = 6
+Derivative RMSE = 0.075404
+
+alpha = 3.000e-04
+ddq = - 2.4983 q - 0.0870 dq - 6.4609 sin(q)
+Active terms = 3
+Derivative RMSE = 0.076637
+
+alpha = 1.000e-03
+ddq = - 2.4870 q - 0.0778 dq - 6.4425 sin(q)
+Active terms = 3
+Derivative RMSE = 0.083213
+
+alpha = 3.000e-03
+ddq = - 2.4547 q - 0.0515 dq - 6.3899 sin(q)
+Active terms = 3
+Derivative RMSE = 0.127141
+
+alpha = 1.000e-02
+ddq = - 2.3305 q - 6.2194 sin(q)
+Active terms = 2
+Derivative RMSE = 0.301387
